@@ -14,7 +14,7 @@ public class ResourceDict {
     private String resourceName;
     private String code;
     private String status;
-    private String event;
+    private String eventStr;
 
     @Id
     @Column(name = "id")
